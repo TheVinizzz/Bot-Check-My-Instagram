@@ -5,6 +5,8 @@ const prompt = require('prompt-sync')();
 (async () => {
 	try {
 		let username = prompt('Digite o seu usuario do instagram... ');
+		
+		console.log("Loading...")
 
 		const browser = await puppeteer.launch({
 			//headless: false,
